@@ -1,0 +1,138 @@
+.Title{
+    position: absolute;
+    top: 9%;
+    left: 5.3%;
+    font-size: 24px;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: normal;
+    color: #202124
+    ;
+} 
+
+.Message{
+    position: absolute;
+    top: 17%;
+    left: 5.3%;
+    font-family:"Google Sans", arial, sans-serif ;
+    font-size:24px;
+    font-weight:400;
+    line-height:32px;
+    color: rgb(32, 33, 36)
+}
+
+.FirstName{
+    position: absolute;
+    left:5.3%;
+    top:25.8%;
+    height: 10px;
+    width: 176px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 14px;
+    outline:none;
+    border : transparent;
+    max-width: 100%;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.LastName{
+    position: absolute;
+    left:31%;
+    top:25.8%;
+    height: 10px;
+    width: 176px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 14px;
+    outline:none;
+    border : transparent;
+    max-width: 100%;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.UserName{
+    position: absolute;
+    left:5.3%;
+    top:37.2%;
+    height: 10px;
+    width: 367px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 14px;
+    outline:none;
+    border : transparent;
+    max-width: 100%;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.Password{
+    position: absolute;
+    left:5.3%;
+    top:48.56%;
+    height: 10px;
+    width: 176px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 14px;
+    outline:none;
+    border : transparent;
+    max-width: 100%;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.Confirm{
+    position: absolute;
+    left:31%;
+    top:48.56%;
+    height: 10px;
+    width: 176px;
+    border-radius: 4px;
+    line-height: 24px;
+    font-size: 14px;
+    outline:none;
+    border : transparent;
+    max-width: 100%;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.Instructions{
+    position: absolute;
+    left:5.3%;
+    top:61%;
+    font-size: 14px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.Symbols{
+    position: absolute;
+    left:5.3%;
+    top:64%;
+    font-size: 14px;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.Instead{
+    position: absolute;
+    top: 76%;
+    left: 5.3%;
+    font-family:  "Google Sans", arial, sans-serif;
+    font-size:14px ;
+    font-weight: 500;
+    line-height:36px ;
+    color: #1a73e8;
+    cursor: pointer;
+}
+
+.Register{
+    position: absolute;
+    top: 76%;
+    left: 31%;
+}
+
+.GoogleImage{
+    position: absolute;
+    top: 25.8%;
+    left: 58%;
+}

@@ -1,0 +1,352 @@
+.MainDiv{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.View 
+{
+    position: absolute;
+    top:32%;
+    right: 15%;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+#LoaderCircle{
+width: 157%;    
+margin-top :-2%
+}
+#NoteDiv{
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+#ItemText{
+    left:50%;
+    padding-left:13%
+}
+#dialogIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#hide[type="file"]{
+    display:none
+}
+#Icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+#Two{
+    display: flex;
+    flex-direction: column;
+}
+#Content{
+    display: flex;
+    margin-left: 91px;
+    width: 792px;
+    flex-wrap: wrap;
+    margin-top: 6%;
+
+}
+#ContentO{
+    display: flex;
+    flex-direction: column;
+    margin-left: 91px;
+    width: 792px;
+    flex-wrap: wrap;
+
+}
+
+#NotesReceived{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-top: 80px; */
+    padding-right: 3%;
+}
+#holdingCards{
+    margin-top :80px
+}
+#ReminderChip{
+    width:130px
+}
+#IconsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#LabelOnNote{
+    background-color:transparent;
+    padding: 10px ;
+    border-radius: 5px;
+    height: 10px;
+    width: 80px;
+    cursor: pointer;
+    margin: 10px auto
+}
+#dropMenu{
+    font-family: Roboto, Arial, sans-serif;
+    font-size:  13px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(60, 64, 67)
+}
+
+#Correct{
+    width: 157%;    
+margin-top :-1.5%;
+cursor: pointer;
+}
+#adjustContent{
+    display:flex;
+    justify-content: space-between;
+}
+#deleteForever{
+    margin-left: 20px;
+    height: 24px;
+    width: 24px;
+    margin-top: -12px;
+}
+
+#deleteButton{
+    margin-left:10px;
+    height:35px;
+    width:2px
+
+}
+
+#HandleMenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    width:150px
+}
+
+#adjust{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%
+}
+
+#ForLabel{
+    margin-top:12px;
+    margin-left:-198px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 520;
+    line-height: 16px;
+    color:rgb(95, 99, 104)
+}
+
+#SingleNote{
+    margin-top: 10px;
+    padding: 0px 11px;
+    display: flex;
+}
+#Remind{
+    display:flex
+}
+
+#ForFont{
+    font-family:Roboto, arial, sans-serif;
+    font-size:15px;
+    font-weight:400;
+    line-height: normal;
+    color: rgb(60, 64, 67)
+}
+#ReminderItems{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#ForFontOther{
+    font-family:Roboto, arial, sans-serif;
+    font-size:12px;
+    font-weight:400;
+    line-height: normal;
+    color: rgb(60, 64, 67)
+}
+.HandleAvatar{
+
+}
+#dialog{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 600px;
+    min-height: 100px;
+    border-radius: 12px;
+}
+#movementOff {
+    display: flex;
+    flex-direction: column;
+    transition: margin-left .13s cubic-bezier(0, 0, 0.1, 1) 0ms;
+    }
+ #UploadImage{
+     display:flex;
+     justify-content:center
+ }   
+#movementOn {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+    transition: margin-left .13s cubic-bezier(0, 0, 0.1, 1) 0ms;
+    }
+    
+#cardsSettled{
+    display:flex;
+    justify-content: space-around;
+}
+#wer{
+    display: flex;
+    justify-content: center;
+}
+
+#dateTimeStyle{
+    display: flex;
+    flex-direction:column ;
+    width: 250px;
+    height: 130px;
+    }    
+
+#LogOutMenu{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:80px;
+    border-radius: 15px;
+    padding: 0px 4px 0px 1px;
+}
+#NoteDimensions{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 240px;
+    margin-top: 6%;
+    margin-right: 3%;
+    min-height: 100px;
+    font-family:"Google Sans", Roboto, Arial, sans-serif;
+    line-height: 24px;
+    /* z-index: 4001;
+    transition-delay: initial; */
+}
+#NoteDimensionsO{
+    margin-left: 7%;
+    margin-top:4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 657px;
+    min-height: 100px;
+    font-family:"Google Sans", Roboto, Arial, sans-serif;
+    line-height: 24px;
+}
+#TakeN
+{
+    margin-top: 16.5%;
+    width:600px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px #888888;
+
+}
+
+#TakeN2{
+    margin-top: 16.5%;
+    width:600px;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 0px #888888;
+}
+.MenuI{
+position:absolute;
+top:35%;
+left:1.4%
+}:hover{
+color :#5f6368
+}
+
+
+.View :hover,
+.View :active{
+color:  red;
+}
+
+.KeepIcon{
+  position: absolute;
+  width: 35px;
+  height: 33px;
+  left:4.5%;
+  top:27%;
+  bottom: 10%;
+  cursor: pointer
+}
+.DrawerText{
+    padding-left: 32px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+   font-size: 13px;
+   font-weight: 400;
+   color: rgb(32, 33, 36)
+}
+
+
+
+.Keep{
+    position: absolute;
+    left: 8.0%;
+    top:31%;
+    font-family: "Product Sans", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #5f6368;
+    line-height: 24px;
+    cursor: pointer
+    
+}
+
+.AlignMent{
+    left: 15%;
+}
+#delete {
+    color: grey;
+    display: none;
+    cursor: pointer;
+    }
+    
+    #show:hover #label {
+    display: none;
+    }
+    
+    #show:hover #delete {
+        color: red;
+    display: block;
+    }
+
+.CardL{
+    position: absolute;
+    width: 100%;
+    height: 7.6%
+}
+
+
+@media(max-width :600px){
+    .CardL{
+        margin-top: auto;
+        width: 100%;
+        height: 500px
+    }
+    #SearchBar{
+        display: none;
+    }
+}

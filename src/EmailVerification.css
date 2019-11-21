@@ -1,0 +1,45 @@
+.TitleE{ position: absolute;
+    top: 9%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+    font-size: 24px;
+    font-family: "Google Sans", arial, sans-serif;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: normal;
+}
+
+.InstructionsREV{
+    position: absolute;
+    width:100%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    top:30%;
+    font-size: 19px;
+    color:#34a853;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.Activate{
+    position: absolute;
+    width:100%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    top:30%;
+    font-size: 17px;
+    color:#34a853;
+    font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+.ActivateButton{
+    position: absolute;
+    left:13%;
+    top:47%;
+}
