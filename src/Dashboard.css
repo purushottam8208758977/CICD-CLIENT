@@ -3,7 +3,16 @@
     /* flex-direction: row; */
     justify-content: center;
 }
-
+#mee{
+    font-family: "Product Sans", Arial, sans-serif;
+    font-size:  18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(60, 64, 67);
+position:absolute;
+bottom:18%;
+right:7%
+}
 .View 
 {
     position: absolute;
