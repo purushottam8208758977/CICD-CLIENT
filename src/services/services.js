@@ -1,5 +1,5 @@
 import axios from 'axios'
-const url = "http://13.59.25.246:4000"
+const url = "http://18.188.50.223:4000"
 
 export function registration(registrationData) {
     console.log("\n\n\tIn services for registration --->", registrationData)
